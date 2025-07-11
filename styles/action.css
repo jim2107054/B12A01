@@ -1,0 +1,61 @@
+.action-container{
+    height: 60vh;
+    margin: 40px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.action-container .action-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.action-container .action-left h1{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.action-container .action-left p{
+    color: #69696e;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: normal;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.action-container .action-left button{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.action-container .action-left button:hover{
+    background-color: rgb(42, 239, 42);
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+.action-container .action-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container .action-right img{
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+}
