@@ -1,0 +1,73 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin: 40px 100px;
+}
+
+.review-container .all-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-container .review-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0;
+}
+
+.review-container .review-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 340px;
+}
+.review-container .review-card .review-name h1{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+}
+
+.review-container .review-card .review-name p{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #69696e;
+    margin-bottom: 10px;
+}
+
+.review-container .review-card .reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-container .review-card .reviewer img{
+    border-radius: 50%;
+}
+
+.review-container .review-card .reviewer-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-container .review-card .reviewer-name h1{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+}
+
+.review-container .review-card .reviewer-name p{
+    font-size: 0.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #69696e;
+}
