@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/Assets/Hero-bg.png');
+    height: 100vh;
+    padding: 30px 100px;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-header .header-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-header .signup-button{
+    padding: 0px 30px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.banner-header .logo{
+    height: 45px;
+}
+
+.banner-container .banner-hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner-container .banner-hero h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner-container .banner-hero button{
+    padding: 0px 30px;
+    border-radius: 8px;
+    background-color: #4E47FF;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.banner-container .banner-hero button:hover{
+    background-color: rgb(70, 236, 70);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    scale: 1.05;
+}
