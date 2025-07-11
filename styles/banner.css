@@ -8,7 +8,7 @@
 .banner-container{
     display: flex;
     flex-direction: column;
-    background-image: url('../Assets/Hero-bg.png');
+    background-image: url("../assets/hero-bg.png");
     height: 100vh;
     padding: 30px 100px;
     gap: 30px;
