@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/styles/productive.css" />
     <link rel="stylesheet" href="/styles/review.css" />
     <link rel="stylesheet" href="/styles/focus.css" />
+    <link rel="stylesheet" href="/styles/letter.css" />
   </head>
   <body>
     <!-- Banner section -->
@@ -155,6 +156,26 @@
         </div>
      </section>
     <!-- News Letter -->
+     <section class="letter-container">
+        <div class="letter-left">
+            <h1>Let’s Get in <br/> Touch</h1>
+        </div>
+        <form class="letter-form">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required />
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="full name" required />
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea rows="5" id="message" name="message" placeholder="write your message..." required></textarea>
+            </div>
+            <button type="submit">Get in Touch</button>
+        </form>
+     </section>
     <!-- Footer -->
   </body>
 </html>
