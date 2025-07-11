@@ -1,0 +1,42 @@
+.productive-container {
+    height: 30vh;
+    margin: 40px 100px;
+    padding: 20px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #918df8c4;
+}
+
+.productive-container h1 {
+    color: black;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productive-container .productive-amounts{
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    justify-content: space-evenly;
+}
+
+.productive-container .productive-amounts .productive{
+    display: flex;
+    flex-direction: column;
+}
+
+.productive-container .productive-amounts .productive h1 {
+    color: #4E47FF;
+    height: 4.5rem;
+    font-size: 3.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productive-container .productive-amounts .productive p {
+    color: rgb(93, 91, 91);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
