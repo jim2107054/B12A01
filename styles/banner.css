@@ -41,6 +41,13 @@
     border: none;
 }
 
+.banner-header .signup-button:hover{
+    background-color: rgb(70, 236, 70);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    scale: 1.05;
+}
+
 .banner-header .logo{
     height: 45px;
 }
