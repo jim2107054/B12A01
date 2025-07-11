@@ -1,0 +1,57 @@
+.footer-container{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    gap: 10px;
+}
+
+.footer-container .footer-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-container .footer-logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-container .footer-logo p{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .footer-info{
+    text-align: center;
+    font-size: 16px;
+    color: #817b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .footer-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.footer-container .footer-links ul li{
+    font-size: 16px;
+    color: #817b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.footer-container .footer-links ul li:hover{
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
